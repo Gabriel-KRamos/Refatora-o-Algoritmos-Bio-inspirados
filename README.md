@@ -4,7 +4,7 @@
 * Gabriela Constante
 * Isabela Lenert
 
-# 🧬 Algoritmo Genético para o Problema da Mochila 0/1
+# 🧬 Algoritmo Genético para o Problema da Mochila
 
 Este projeto implementa uma solução para o clássico **Problema da Mochila 0/1** utilizando um **Algoritmo Genético (GA)**.  
 O objetivo é selecionar um subconjunto ótimo de itens que maximize o valor total, respeitando a restrição de capacidade da mochila.
@@ -49,6 +49,7 @@ valores = [random.randint(10, 100) for _ in range(n_itens)]
 capacidade = int(sum(pesos) * 0.4)
 
 resultado = algoritmo_genetico(pesos, valores, capacidade)
+```
 
 ### 📤 Saída
 
@@ -57,7 +58,6 @@ resultado = algoritmo_genetico(pesos, valores, capacidade)
 Melhor Valor: 11743
 Tempo de Execução (s): 2.356
 Total de Trocas/Movimentos: 154
-
 ```
 
 🚧 **Dificuldades**
